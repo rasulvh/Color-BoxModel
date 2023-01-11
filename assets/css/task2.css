@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+.main .card{
+    height: 500px;
+    width: 400px;
+    text-align: center;
+    background-color: rgb(255, 255, 246);
+}
+
+.main .card .square{
+    background-color: rgb(188,111,81);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    position: relative;
+    top: 100px;
+    margin: auto;
+}
+
+.main .card .square i{
+    color: white;
+    font-size: 35px;
+}
+
+.main .card .heading{
+    position: relative;
+    top: 150px;
+    width: 150px;
+    margin: auto;
+}
+
+.main .card .heading h2{
+    font-weight: 500;
+}
+
+.main .card .passage{
+    margin: 40px;
+    position: relative;
+    top: 135px;
+}
+
+.main .card .passage p{
+    color: rgb(118,121,113);
+}
